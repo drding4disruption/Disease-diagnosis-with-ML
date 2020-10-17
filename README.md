@@ -10,14 +10,14 @@
 
 First, clone the project and 
 ```
-https://github.com/drding4disruption/Disease-diagnosis-with-ML.git
+git clone https://github.com/drding4disruption/Disease-diagnosis-with-ML.git
 ```
 
 Install the virtual environment.
 ```
 pip install virtualenv
 ```
-Then,
+Then, create a virtual environment
 ```
 virtualenv myenv
 ```
