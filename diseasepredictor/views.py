@@ -75,10 +75,7 @@ def heart(request):
 
 
 def diabetes(request):
-    """
-    20:13:20 09 Oct, 2019 by Arjun Adhikari
-    Reading the training data set.
-    """
+
     dfx = pd.read_csv('static/Diabetes_XTrain.csv')
     dfy = pd.read_csv('static/Diabetes_YTrain.csv')
     X = dfx.values
